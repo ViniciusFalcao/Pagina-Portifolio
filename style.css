@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: linear-gradient(90deg,rgb(90, 60, 100),rgb(59, 95, 123));
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+.img-logo{
+    width: 177px;
+    height: 150px;
+    margin: 40px 0px;
+    border-radius: 10px ;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: beige;
+    transition: 500ms all;
+    font-size: 18px;
+}
+nav li a:hover{
+    color:aqua;
+    font-size: 20px;
+    
+
+}
+main{
+    width: 940px;
+    margin: 0px auto;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lista-projetos li{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    border:4px solid rgb(63, 35, 189);
+    border-radius: 10px;
+    padding: 8px;
+    transition: 1s all;
+    
+
+
+}
+.lista-projetos li:hover{
+    border-color:aqua ;
+    font-size: 17px;
+    
+
+}
+.lista-projetos p{
+    margin: 1em;
+}
+
+.img-projetos{
+    width:280px ;
+    height: 190px;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    position: relative;
+    
+}
+footer img{
+    margin: 20px;
+    box-shadow: 5px 5px rgb(90, 60, 100);
+
+    
+}footer p{
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 90px;
+    font-weight: bold;
+    
+    right: 0px;
+
+}
