@@ -104,6 +104,7 @@ footer img{
     .lista-projetos li{
         display: block;
         width: 60%;
+        text-align: center;
     }
     .img-projetos{
         width: 90%;
@@ -130,7 +131,7 @@ footer img{
         left: 10px;
     }
     #descriçao-2{
-        margin-right: 8px;
+        margin-right: 20px;
     }
     
     
