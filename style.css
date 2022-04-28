@@ -97,3 +97,38 @@ footer img{
     right: 0px;
 
 }
+@media screen and (max-width:480px) {
+    .caixa,main{
+        width: auto;
+    }
+    .lista-projetos li{
+        display: block;
+        width: 60%;
+    }
+    .img-projetos{
+        width: 90%;
+    }
+    .caixa nav{
+        display: block;
+        position: static;
+
+        
+    }
+    .caixa{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    main{
+        margin-left: 90px;
+    }
+    h2{
+        margin-right:90px ;
+    }
+    .p-footer{
+        display:block;
+        top: 170px;
+        left: 10px;
+    }
+    
+    
+}
